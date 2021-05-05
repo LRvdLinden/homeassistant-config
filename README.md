@@ -26,7 +26,7 @@
 
 
 
-### Status of: 2021.04.30
+### Status of: 2021.05.05
 
 ### 💻 Server Home Assistant
 ---
@@ -115,6 +115,8 @@
 ### 🖼️ Result
 ---
 ![IMG_0550](https://user-images.githubusercontent.com/77990847/116198669-89637000-a736-11eb-96b1-f3081044622f.jpeg)
+
+![image](https://user-images.githubusercontent.com/77990847/116847363-ae4e5c00-abea-11eb-86ee-27dd2e964094.png)
 
 ![IMG_0551](https://user-images.githubusercontent.com/77990847/116198680-8c5e6080-a736-11eb-8d5e-6f22c317ee4c.jpeg)
 
