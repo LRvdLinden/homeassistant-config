@@ -23,7 +23,7 @@
 
 
 
-### Status of: 2021.04.28
+### Status of: 2021.05.05
 
 ### ⚙ Home Assistant Integartions
 ---
