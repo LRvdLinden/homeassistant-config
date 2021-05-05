@@ -73,7 +73,7 @@
 | ⚙ | HA | [Uptime Robot](https://www.home-assistant.io/integrations/uptimerobot/) |
 | ⚙ | HA | [Waze Travel Time](https://www.home-assistant.io/integrations/waze_travel_time/) |
 | ⚙ | HA | [Withings](https://www.home-assistant.io/integrations/withings/) |
-
+| ⚙ | HA | [GoogleGeocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) |
 
 ### 🎨 Themes in HA
 ---
