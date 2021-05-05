@@ -86,7 +86,7 @@
 ---
 | Icon | Place | Type | Total |
 |------|:-------:|:--------------:|:------:|
-| ⚙ | HA | [Integrations](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-home-assistant-integartions) | 42 |
+| ⚙ | HA | [Integrations](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-home-assistant-integartions) | 43 |
 | 🎨 | HA | [Themes](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-themes-in-ha) | 2 |
 | ⚙ | HA | [Supervisor Addon](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-supervisor-addon) | 10 |
 | ⚙ | HACS | [Integrations](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-hacs-integartions) | 18 |
