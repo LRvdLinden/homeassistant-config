@@ -100,11 +100,11 @@
 |------|:-------:|:--------------:|:------:|
 | 🔄 | HA | Automations | 65 |
 | 📃 | HA | Scripts | 4 |
-| 📍 | HA | Trackers | 88 | 
-| ⚙ | HA | Binary Sensors | 53 |
-| ⚙ | HA | Sensors | 966 |
-| 🔘 | HA | Switches | 34 |
-| 📍 | HA | Zones | 7 | 
+| 📍 | HA | Trackers | 84 | 
+| ⚙ | HA | Binary Sensors | 54 |
+| ⚙ | HA | Sensors | 1012 |
+| 🔘 | HA | Switches | 31 |
+| 📍 | HA | Zones | 5 | 
 | 🔘 | HA | Booleans | 2 |
 | 🔢 | HA | Numbers | 3 |
 | 🔤 | HA | Text | 0 |
