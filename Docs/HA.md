@@ -74,6 +74,8 @@
 | ⚙ | HA | [Waze Travel Time](https://www.home-assistant.io/integrations/waze_travel_time/) |
 | ⚙ | HA | [Withings](https://www.home-assistant.io/integrations/withings/) |
 | ⚙ | HA | [GoogleGeocode](https://github.com/michaelmcarthur/GoogleGeocode-HASS) |
+| ⚙ | HA | [OpenUV](https://my.home-assistant.io/redirect/config_flow_start/?domain=http%3A%2F%2Fhomeassistant.local%3A8123%2Fconfig_flow_start%3Fdomain%3Dopenuv) |
+
 
 ### 🎨 Themes in HA
 ---
@@ -194,6 +196,7 @@
 | 📇 | HACS | [Multiple Entity Row](https://github.com/benct/lovelace-multiple-entity-row) |
 | 📇 | HACS | [Auto Reload](https://github.com/ben8p/lovelace-auto-reload-card) |
 | 📇 | HACS | [Time Elapsed Card](https://github.com/kirbo/ha-lovelace-elapsed-time-card) |
+| 📇 | HACS | [HA card Weather Conditions](https://github.com/r-renato/ha-card-weather-conditions) |
 
 
 ---
