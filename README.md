@@ -118,7 +118,9 @@
 
 | **Light view** | **Dark view** | 
 | ----------- | ----------  | 
-| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/117960726-95962280-b31d-11eb-98c3-2b8d5192f33e.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/117960723-94fd8c00-b31d-11eb-9ed8-5678171aec80.png) | 
+| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/118010920-bf683d00-b34f-11eb-8f6d-776989c05a2f.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/118010912-becfa680-b34f-11eb-88ec-f2b5d6be2e5a.png) | 
+
+
 
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/117962341-67b1dd80-b31f-11eb-9f57-2ae5e4b6dd2b.png)
 ![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
