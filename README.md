@@ -22,7 +22,7 @@
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a></p> 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77990847/117986254-bc625200-b339-11eb-9db1-2c3150e1f9d5.png" />
+  <img src="https://user-images.githubusercontent.com/77990847/118013573-8b424b80-b352-11eb-8cb1-f88d450ee0eb.png" />
 </p>
 
 
