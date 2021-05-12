@@ -114,6 +114,11 @@
 
 ### 🖼️ Result
 ---
+
+| **Light view** | **Dark view** | 
+| ----------- | ----------  | 
+| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/117960726-95962280-b31d-11eb-98c3-2b8d5192f33e.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/117960723-94fd8c00-b31d-11eb-9ed8-5678171aec80.png) | 
+
 ![IMG_0550](https://user-images.githubusercontent.com/77990847/116198669-89637000-a736-11eb-96b1-f3081044622f.jpeg)
 
 ![IMG_0551](https://user-images.githubusercontent.com/77990847/116198680-8c5e6080-a736-11eb-8d5e-6f22c317ee4c.jpeg)
