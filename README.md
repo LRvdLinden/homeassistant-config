@@ -124,10 +124,11 @@
 ![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
 ![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
 ![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
-![simple-ipad-pro-mockup-23619 (6) (1)](https://user-images.githubusercontent.com/77990847/117971174-d005bc80-b329-11eb-9612-8f8d168f6f8a.png)
+![13](https://user-images.githubusercontent.com/77990847/117984328-0a765600-b338-11eb-893e-e77906d6aa32.png)
+![simple-ipad-pro-mockup-23619 (5)](https://user-images.githubusercontent.com/77990847/117984419-1f52e980-b338-11eb-90d6-0432b736868e.png)
 
 
-![image](https://user-images.githubusercontent.com/77990847/116847363-ae4e5c00-abea-11eb-86ee-27dd2e964094.png)
+
 
 
 
