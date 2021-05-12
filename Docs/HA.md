@@ -88,7 +88,8 @@
 
 | **Dwains Light Theme** | **Dwains Dark Theme** | 
 | ----------- | ----------  | 
-| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/117960726-95962280-b31d-11eb-98c3-2b8d5192f33e.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/117960723-94fd8c00-b31d-11eb-9ed8-5678171aec80.png) | 
+| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/118010920-bf683d00-b34f-11eb-8f6d-776989c05a2f.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/118010912-becfa680-b34f-11eb-88ec-f2b5d6be2e5a.png) | 
+
 
 ### ⚙ Supervisor Addon
 ---
