@@ -1,3 +1,4 @@
+
 <h1 align="center">Home Assistant</h1> 
 
 
@@ -21,7 +22,7 @@
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a></p> 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77990847/116198057-c844f600-a735-11eb-93be-7449617f82e7.jpeg" />
+  <img src="https://user-images.githubusercontent.com/77990847/117962512-9760e580-b31f-11eb-9fa1-ea859c59eab0.png" />
 </p>
 
 
