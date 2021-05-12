@@ -119,17 +119,17 @@
 | ----------- | ----------  | 
 | ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/117960726-95962280-b31d-11eb-98c3-2b8d5192f33e.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/117960723-94fd8c00-b31d-11eb-9ed8-5678171aec80.png) | 
 
-![IMG_0550](https://user-images.githubusercontent.com/77990847/116198669-89637000-a736-11eb-96b1-f3081044622f.jpeg)
+![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/117962341-67b1dd80-b31f-11eb-9f57-2ae5e4b6dd2b.png)
+![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
+![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
+![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
 
-![IMG_0551](https://user-images.githubusercontent.com/77990847/116198680-8c5e6080-a736-11eb-8d5e-6f22c317ee4c.jpeg)
+
 
 ![image](https://user-images.githubusercontent.com/77990847/116847363-ae4e5c00-abea-11eb-86ee-27dd2e964094.png)
 
 ![IMG_2392](https://user-images.githubusercontent.com/77990847/116198684-8ec0ba80-a736-11eb-9dc4-e94d775d1300.jpeg)
 
-![IMG_0553](https://user-images.githubusercontent.com/77990847/116198695-91231480-a736-11eb-8a20-f192b3bac3a0.jpeg)
-
-![IMG_0552](https://user-images.githubusercontent.com/77990847/116198700-93856e80-a736-11eb-8b76-4ce720775e29.jpeg)
 
 
 ---
