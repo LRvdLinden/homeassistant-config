@@ -27,6 +27,7 @@
 
 
 
+
 ### Status of: 2021.05.05
 
 ### 💻 Server Home Assistant
@@ -122,7 +123,7 @@
 
 
 
-![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/117962341-67b1dd80-b31f-11eb-9f57-2ae5e4b6dd2b.png)
+![simple-ipad-pro-mockup-23619 (9)](https://user-images.githubusercontent.com/77990847/118013350-50d8ae80-b352-11eb-9655-dd7f839584e0.png)
 ![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
 ![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
 ![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
