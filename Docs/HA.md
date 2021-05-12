@@ -86,6 +86,10 @@
 | 🎨 | Lovelace Theme | [Dwains Light Theme](https://github.com/LRvdLinden/dwains_light_theme) | 1 |
 | 🎨 | Lovelace Theme | [Dwains Dark Theme](https://github.com/LRvdLinden/dwains_dark_theme) | 1 |
 
+| **Dwains Light Theme** | **Dwains Dark Theme** | 
+| ----------- | ----------  | 
+| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/117960726-95962280-b31d-11eb-98c3-2b8d5192f33e.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/117960723-94fd8c00-b31d-11eb-9ed8-5678171aec80.png) | 
+
 ### ⚙ Supervisor Addon
 ---
 [🔙 to main](https://github.com/LRvdLinden/homeassistant-config#-menu-home-assistant)
