@@ -1,0 +1,28 @@
+ # https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/global.html
+ 
+global:
+  weather: weather.thuis
+  outside_temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_temperature
+  outside_humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_humidity
+  alarm: alarm_control_panel.ha_alarm
+  inside_temperature: sensor.woonkamer_temperature
+  battery_empty_strings:
+    - "unavailable"
+  safety_ok_strings: 
+    - "Ok"
+    - "Idle"
+    - "off"
+  custom_popups:
+    - domain: light
+      path: 'dwains-dashboard/addons/popups/light.yaml'
+    #weather: weather.thuis # Configure a weather entity see HA docs for more info.
+    #outside_temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_temperature # Configure a sensor here!
+    #outside_humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_humidity# Configure a sensor here!
+    #alarm: alarm_control_panel.ha_alarm #Alarm panel entity.
+    #inside_temperature: climate.woonkamer #Can be 'climate.' or an 'sensor.' entity.
+
+  favorites_homepage: 'true' 
+
+  # custom_popups: #Create custom popups for a whole domain. See popup addons in the docs
+  #   - domain: cover
+  #     path: 'dwains-dashboard/addons/popups/cover/popup.yaml'

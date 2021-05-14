@@ -1,0 +1,71 @@
+# https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/house_information.html
+
+house_information:
+ favorites:
+   - entity: binary_sensor.contact_sensor_voordeur
+     icon_on: fas:door-open
+     icon_off: fas:door-closed
+   - entity: binary_sensor.contact_sensor_achterdeur
+     icon_on: fas:door-open
+     icon_off: fas:door-closed
+  # - entity: binary_sensor.wc_sensor_motion
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+  # - entity: binary_sensor.entree_sensor_motion
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+   - entity: binary_sensor.badkamer_sensor_motion
+     icon_on: mdi:motion-sensor
+     icon_off: mdi:motion-sensor-off
+  # - entity: binary_sensor.logi_circle_kai
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+  # - entity: binary_sensor.logi_circle_fay
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+  # - entity: binary_sensor.logi_circle_nyk
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+  # - entity: binary_sensor.logi_circle_zolder
+  #   icon_on: mdi:motion-sensor
+  #   icon_off: mdi:motion-sensor-off
+   - entity: climate.woonkamer
+   - entity: sensor.woonkamer_temperature
+  # - entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_temperature
+  # - entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_temperature
+   - entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_co2
+   - entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_co2
+   - entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_co2
+  
+ addons:
+   - name: Statistics
+     icon: mdi:desktop-classic
+     path: 'dwains-dashboard/addons/house_information/statistics/page.yaml'
+     data:
+       stats:
+         - entity: sensor.processor_use_percent
+           name: CPU %
+           icon: mdi:cpu-64-bit
+         - entity: sensor.memory_use_percent
+           name: RAM %
+           icon: mdi:memory
+         - entity: sensor.disk_use_percent_home
+           name: DISK
+           icon: mdi:harddisk
+         - entity: sensor.cloudvdlinden_drive_1_temperature
+           name: CPU Temp
+           icon: mdi:thermometer
+         - entity: sensor.supervisor_updates
+           name: Updater - Addons
+           icon: mdi:update
+         - entity: sensor.hacs
+           name: Updater - HACS
+           icon: hacs:hacs
+   - name: Kalender
+     icon: fal:calendar-alt
+     path: 'dwains-dashboard/addons/house_information/calendar/page.yaml'
+     data:
+       calendars:
+         - calendar.leon
+         - calendar.ellen
+         - calendar.gezin

@@ -1,0 +1,290 @@
+# https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/rooms.html
+
+rooms:
+  #######################################################################################################
+  #######################################################################################################
+  #ENTREE                                                                                                                                                                                            #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Entree
+    icon: far:key
+    light: light.entree
+    temperature: sensor.entree_sensor_temperature
+    motion: binary_sensor.entree_sensor_motion
+    door: binary_sensor.contact_sensor_voordeur
+    addons:
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entity: camera.voordeur
+
+  #######################################################################################################
+  #######################################################################################################
+  ##WC                                                                                                                                                                                               ##
+  #######################################################################################################
+  #######################################################################################################
+  - name: WC
+    icon: mdi:toilet
+    light: light.wc_lamp
+    temperature: sensor.wc_sensor_temperature
+    motion: binary_sensor.wc_sensor_motion
+
+  #######################################################################################################
+  #######################################################################################################
+  ###################                                  METERKAST                        #################
+  #######################################################################################################
+  #######################################################################################################
+  - name: Meterkast
+    icon: far:server
+    temperature: sensor.cloudvdlinden_drive_1_temperature
+    device: group.switch_meterkast_groep
+    addons:
+      - name: Alarm Control Panel
+        icon: mdi:alarm-panel
+        path: "dwains-dashboard/addons/rooms/meterkast/alarm/page.yaml"
+
+      - name: Home Assistant
+        icon: mdi:home-assistant
+        path: "dwains-dashboard/addons/rooms/meterkast/home_assistant/page.yaml"
+
+      - name: Synology
+        icon: far:server
+        path: "dwains-dashboard/addons/rooms/meterkast/synology/page.yaml"
+
+      - name: T-Mobile Thuis
+        icon: fas:wifi
+        path: "dwains-dashboard/addons/rooms/meterkast/tmo/page.yaml"
+
+  #######################################################################################################
+  #######################################################################################################
+  ##                                                                                   OVERLOOP                                                                                                #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Overloop
+    icon: mdi:stairs-up
+    light: group.verlichting_overloop_groep
+    temperature: sensor.kantoor_sensor_temperature
+    addons:
+      - name: Aqara Hub
+        icon: mdi:router-network
+        path: "dwains-dashboard/addons/rooms/overloop/aqara/page.yaml"
+  #######################################################################################################
+  #######################################################################################################
+  #KEUKEN                                                                                               #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Keuken
+    icon: far:utensils
+    light: group.verlichting_keuken_groep
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER WOONKAMER                                                                                 #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Woonkamer
+    icon: far:couch
+    light: group.verlichting_woonkamer_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_temperature
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_humidity
+    climate: climate.woonkamer
+    media_player: group.media_player_woonkamer_groep
+    device: group.switch_woonkamer_groep
+    addons:
+      #- name: Camera
+      #path: 'dwains-dashboard/addons/rooms/camera/cams/page.yaml'
+      #button_path: 'dwains-dashboard/addons/rooms/camera/cams/button.yaml'
+      #data:
+      #entity: camera.zolder
+
+      - name: Thermostaat
+        icon: mdi:home-thermometer-outline
+        path: "dwains-dashboard/addons/rooms/woonkamer/thermostaat/page.yaml"
+
+      - name: Sonos
+        icon: mdi:speaker
+        path: "dwains-dashboard/addons/rooms/woonkamer/sonos/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/woonkamer/sonos/button.yaml"
+        data:
+          platform: sonos
+          speakers:
+            - entity: media_player.sonos
+              name: Sonos Beam
+          buttons:
+            - name: Radio 538
+              type: source
+              id: Radio 538
+            - name: 100% NL
+              type: source
+              id: 100% NL
+            - name: Qmusic
+              type: source
+              id: Qmusic
+            - name: TV
+              icon: mdi:television
+              type: source
+              id: TV
+
+      - name: Rituals
+        icon: fas:fan
+        path: "dwains-dashboard/addons/rooms/woonkamer/rituals/page.yaml"
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER BADKAMER                                                                                  #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Badkamer
+    icon: far:bath
+    light: group.verlichting_badkamer_groep
+    temperature: sensor.badkamer_sensor_temperature
+    motion: binary_sensor.badkamer_sensor_motion
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER MASTER BEDROOM                                                                            #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Master Bedroom
+    icon: ios:bed-double
+    light: group.verlichting_master_bedroom_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_temperature
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_humidity
+    media_player: group.media_player_mb_groep
+    device: group.switch_master_bedroom_groep
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER FAY                                                                                       #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Slaapkamer Fay
+    icon: far:bed
+    light: group.verlichting_slaapkamer_fay_groep
+    temperature: sensor.temperature_sensor_temperature_2
+    humidity: sensor.temperature_sensor_humidity_2
+    motion: binary_sensor.logi_circle_fay
+    addons:
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entity: camera.logi_circle_fay
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER NYK                                                                                       #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Slaapkamer Nyk
+    icon: far:bed
+    light: group.verlichting_slaapkamer_nyk_groep
+    temperature: sensor.temperature_sensor_temperature
+    humidity: sensor.temperature_sensor_humidity
+    motion: binary_sensor.logi_circle_nyk
+    addons:
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entity: camera.logi_circle_nyk
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER KAI                                                                                       #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Slaapkamer Kai
+    icon: far:bed
+    light: group.verlichting_slaapkamer_kai_groep
+    media_player: group.media_player_slaapkamer_kai_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_temperature
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_humidity
+    motion: binary_sensor.logi_circle_kai
+    device: group.switch_slaapkamer_kai_groep
+    addons:
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entity: camera.logi_circle_kai
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER ELIZA                                                                                     #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Slaapkamer Eliza
+    icon: far:bed
+    light: group.verlichting_slaapkamer_eliza_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_temperature
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_humidity
+
+  #######################################################################################################
+  #######################################################################################################
+  #ZOLDER                                                                                               #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Zolder
+    icon: mdi:home-roof
+    light: group.verlichting_zolder_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_temperature
+    motion: binary_sensor.logi_circle_zolder
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_humidity
+    device: group.switch_zolder_groep
+    addons:
+      - name: Wasmachine
+        icon: mdi:washing-machine
+        path: "dwains-dashboard/addons/rooms/zolder/wasmachine/page.yaml"
+
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entities:
+            - camera.logi_circle_zolder
+            - camera.kantoor
+  #######################################################################################################
+  #######################################################################################################
+  #Kantoor                                                                                      #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Kantoor
+    icon: ios:desktopcomputer
+    light: group.verlichting_kantoor_groep
+    temperature: sensor.kantoor_sensor_temperature
+    motion: binary_sensor.kantoor_sensor_motion
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_humidity
+    media_player: media_player.google_home
+    device: group.switch_kantoor_groep
+    addons:
+      - name: Printer
+        icon: mdi:printer
+        path: "dwains-dashboard/addons/rooms/kantoor/printer/page.yaml"
+
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entities:
+            - camera.kantoor
+
+  #######################################################################################################
+  #######################################################################################################
+  #SLAAPKAMER TUIN                                                                                      #
+  #######################################################################################################
+  #######################################################################################################
+  - name: Tuin
+    icon: ios:leaf
+    light: group.verlichting_tuin_groep
+    temperature: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_temperature
+    humidity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_humidity
+    device: group.switch_tuin_groep
+    door: binary_sensor.contact_sensor_achterdeur
+    addons:
+      - name: Camera
+        path: "dwains-dashboard/addons/rooms/camera/cams/page.yaml"
+        button_path: "dwains-dashboard/addons/rooms/camera/cams/button.yaml"
+        data:
+          entity: camera.achterdeur

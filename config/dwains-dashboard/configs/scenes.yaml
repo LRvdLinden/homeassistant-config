@@ -1,0 +1,32 @@
+scenes:
+  main_menu: 'true' #Optional
+  entities:
+    - entity: scene.goedemorgen
+      icon: mdi:weather-sunset-up
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #FEB692 10%, #EA5455 100%)'
+      
+    - entity: scene.avond_1
+      icon: mdi:coffee
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #FEB692 10%, #EA5455 100%)'
+      
+    - entity: scene.avond
+      icon: mdi:glass-cocktail
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #CD5555 10%, #B22222 100%)'
+
+    - entity: scene.porno
+      icon: mdi:party-popper
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #EEB4B4 10%, #B22222 100%)'
+      
+    - entity: scene.alles_uit
+      icon: ios:moon-zzz
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #ffffff 10%, #00008B 100%)'
+      
+    - entity: scene.power_off
+      icon: ios:power
+      icon_color: '#ffffff'
+      background: 'linear-gradient( 135deg, #ffffff 10%, #000000 100%)'

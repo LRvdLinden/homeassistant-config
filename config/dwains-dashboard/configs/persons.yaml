@@ -1,0 +1,57 @@
+# https://dwainscheeren.github.io/dwains-lovelace-dashboard/configuration/persons.html
+
+persons: 
+  - name: Léon
+    track: person.leon
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/leon/page.yaml'
+        
+  - name: Ellen
+    track: person.ellen
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/ellen/page.yaml'
+        
+  - name: Eliza
+    track: person.eliza
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/eliza/page.yaml'
+        
+  - name: Kai
+    track: person.kai
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/kai/page.yaml'
+        
+  - name: Fay
+    track: person.fay
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/fay/page.yaml'
+        
+  - name: Nyk
+    track: person.nyk
+    addons:
+      - name: Batterij 
+        icon: mdi:battery
+        path: 'dwains-dashboard/addons/persons/nyk/page.yaml'
+        
+#     more_entities:
+#       columns: 1 #optional
+#       entities:
+#         - entity: sensor.steps
+#         - entity: sensor.steps
+#     page_entities:
+#       columns: 2 #optional
+#       entities:
+#         - entity: sensor.steps
+#         - entity: sensor.steps
+
+  
