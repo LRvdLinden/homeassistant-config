@@ -1,0 +1,84 @@
+check_config:
+  sequence: []
+  alias: Check Configuration
+'1611862460702':
+  alias: 'Alarm: Flash Lights'
+  sequence:
+  - condition: state
+    entity_id: alarm_control_panel.ha_alarm
+    state: armed_away
+  - scene: scene.alarm_turn_red
+  - wait_template: ''
+    timeout: 00:00:02
+    continue_on_timeout: true
+  - scene: scene.alarm_lights_off
+  - service: script.turn_on
+    data: {}
+    entity_id: script.alarm_flash_loop
+  mode: single
+alarm_flash_loop:
+  alias: 'Alarm: Flash loop'
+  sequence:
+  - wait_template: ''
+    timeout: 00:00:02
+    continue_on_timeout: true
+  - service: script.turn_on
+    data: {}
+    entity_id: script.1611862460702
+  mode: single
+
+cameracast:
+  alias: cameracast
+  sequence:
+  - condition: state
+    entity_id: input_select.camera
+    state: ''
+    attribute: options
+  - service: camera.play_stream
+    data:
+      media_player: media_player.chromecast_woonkamer
+  mode: single
+
+#####
+# Radio player - script to start playing Radio with selected values.
+# 
+#####
+
+radio_play:
+  alias: Play TuneIn
+  sequence:
+  - service: media_player.volume_set
+    data:
+      entity_id: >
+        {% if is_state("input_select.radio_speaker", "Google Home") %} media_player.google_home
+        {% elif is_state("input_select.radio_speaker", "Google Home Hub") %} media_player.google_home_hub
+        {% elif is_state("input_select.radio_speaker", "Home Mini Master Bedroom") %} media_player.home_mini_master_bedroom
+        {% elif is_state("input_select.radio_speaker", "Home Mini Kai") %} media_player.home_mini_kai
+        {% elif is_state("input_select.radio_speaker", "Sonos") %} media_player.sonos
+        {% endif %}
+      volume_level: '{{  states("input_number.radio_volume")  }}'
+  - service: media_player.play_media
+    data:
+      entity_id: >
+        {% if is_state("input_select.radio_speaker", "Google Home") %} media_player.google_home
+        {% elif is_state("input_select.radio_speaker", "Google Home Hub") %} media_player.google_home_hub
+        {% elif is_state("input_select.radio_speaker", "Home Mini Master Bedroom") %} media_player.home_mini_master_bedroom
+        {% elif is_state("input_select.radio_speaker", "Home Mini Kai") %} media_player.home_mini_kai
+        {% elif is_state("input_select.radio_speaker", "Sonos") %} media_player.sonos
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_station", "Nostalgie Vlaanderen") %} https://21253.live.streamtheworld.com/NOSTALGIEWHATAFEELING.mp3
+        {% elif is_state("input_select.radio_station", "MNM") %} http://icecast.vrtcdn.be/mnm-high.mp3
+        {% elif is_state("input_select.radio_station", "Studio Brussel") %} http://icecast.vrtcdn.be/stubru-high.mp3
+        {% elif is_state("input_select.radio_station", "Nostalgie Extra") %} https://22653.live.streamtheworld.com/NOSTALGIEWAFEXTRA.mp3
+        {% elif is_state("input_select.radio_station", "Nostalgie Extra 90") %} https://22653.live.streamtheworld.com/NOSTALGIEWAF90.mp3
+        {% elif is_state("input_select.radio_station", "Nostalgie Extra NL") %} https://22193.live.streamtheworld.com/NOSTALGIEWAFNL.mp3
+        {% elif is_state("input_select.radio_station", "Nostalgie Extra 80") %} https://22653.live.streamtheworld.com/NOSTALGIEWAF80.mp3
+        {% elif is_state("input_select.radio_station", "Nostalgie Extra New Wave") %} https://22653.live.streamtheworld.com/NOSTALGIEWAFNEWWAVE.mp3
+        {% elif is_state("input_select.radio_station", "MNM Hits") %} http://icecast.vrtcdn.be/mnm_hits-high.mp3
+        {% elif is_state("input_select.radio_station", "MNM R&B Beats") %} http://icecast.vrtcdn.be/mnm_urb-high.mp3
+        {% elif is_state("input_select.radio_station", "MNM 90 en Nillies") %} http://icecast.vrtcdn.be/mnm_90s00s-high.mp3
+        {% elif is_state("input_select.radio_station", "Studio Brussel - De Tijdloze") %} http://icecast.vrtcdn.be/stubru_tijdloze-high.mp3
+        {% elif is_state("input_select.radio_station", "Studio Brussel - #ikluisterbelgisch") %} http://icecast.vrtcdn.be/stubru_tgs-high.mp3
+        {% endif %}
+      media_content_type: 'music'
