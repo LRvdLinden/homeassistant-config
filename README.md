@@ -153,7 +153,7 @@
 ## [Weather Dashboard](https://github.com/LRvdLinden/weather_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118019312-21797000-b359-11eb-8723-c4c2e49f4e7b.png)
 
-## [Automationn Dashboard](https://github.com/LRvdLinden/automations_dd_addon)
+## [Automation Dashboard](https://github.com/LRvdLinden/automations_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118323454-f5005800-b500-11eb-9f28-b360c9464fcf.png)
 
 
