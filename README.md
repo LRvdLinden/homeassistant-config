@@ -18,6 +18,10 @@
   </a>
 </p>
 
+[![GitHub stars](https://img.shields.io/github/stars/huizebruin/Home-Assistant-Config.svg?style=plasticr)](https://github.com/huizebruin/Home-Assistant-Config/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/geekofweek/homeassistant.svg?style=plasticr)](https://github.com/huizebruin/Home-Assistant-Config/commits/main)
+[![HA Version](https://img.shields.io/badge/Running%20Home%20Assistant-2021.5.3%20-darkblue)](https://github.com/home-assistant/home-assistant/releases/latest)
+
 <p align="center">My Home Assistant config based on <a href=https://github.com/dwainscheeren/dwains-lovelace-dashboard>Dwains Dashboard</a></p>
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a></p> 
 
