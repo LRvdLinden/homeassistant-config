@@ -1,0 +1,6 @@
+  urls:
+    - https://www.gpfans.com/nl/rss.xml
+    - https://gp33.nl/feed/
+  scan_interval:
+    minutes: 15
+  max_entries: 5

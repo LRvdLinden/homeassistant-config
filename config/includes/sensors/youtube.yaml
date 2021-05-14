@@ -1,0 +1,2 @@
+  - platform: youtube
+    channel_id: !secret channel_id_YT

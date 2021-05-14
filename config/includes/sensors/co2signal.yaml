@@ -1,0 +1,4 @@
+- platform: co2signal
+  token: !secret token_co2
+  latitude: !secret latitude_thuis
+  longitude: !secret longitude_thuis

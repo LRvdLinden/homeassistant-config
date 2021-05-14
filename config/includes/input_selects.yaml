@@ -1,0 +1,50 @@
+---
+#-
+#  _                   _                _           _
+# (_)_ __  _ __  _   _| |_     ___  ___| | ___  ___| |_ ___
+# | | '_ \| '_ \| | | | __|   / __|/ _ \ |/ _ \/ __| __/ __|
+# | | | | | |_) | |_| | |_    \__ \  __/ |  __/ (__| |_\__ \
+# |_|_| |_| .__/ \__,_|\__|___|___/\___|_|\___|\___|\__|___/
+#         |_|            |_____|
+#
+#- from github.com/basnijholt/home-assistant-config
+camera:
+  name: select camera
+  options:
+    - camera.logi_circle_kai
+    - camera.logi_circle_fay
+    - camera.logi_circle_nyk
+    - camera.logi_circle_zolder
+    - camera.voordeur
+    - camera.achterdeur
+  icon: hass:cctv
+
+radio_speaker:
+  name: 'Select Speaker'
+  options:
+    - media_player.google_home
+    - media_player.google_home_hub
+    - media_player.home_mini_master_bedroom
+    - media_player.home_mini_kai
+    - media_player.sonos
+  icon: mdi:speaker-wireless
+
+radio_station:
+  name: 'Select Radio Station'
+  options: 
+    - 'Nostalgie Vlaanderen'
+    - 'MNM'
+    - 'Studio Brussel'
+    - 'Nostalgie Extra'
+    - 'Nostalgie Extra 90'
+    - 'Nostalgie Extra NL'
+    - 'Nostalgie Extra 80'
+    - 'Nostalgie Extra New Wave'
+    - 'MNM'
+    - 'MNM Hits'
+    - 'MNM R&B Beats'
+    - 'MNM 90 en Nillies'
+    - 'Studio Brussel - De Tijdloze'
+    - 'Studio Brussel - #ikluisterbelgisch'
+  initial: Nostalgie Vlaanderen
+  icon: mdi:radio

@@ -1,0 +1,20 @@
+  - platform: waze_travel_time
+    name: Reistijd naar werk
+    origin: !secret adres_thuis
+    destination: !secret adres_werk
+    region: "EU"
+    units: metric
+    avoid_toll_roads: true
+    avoid_subscription_roads: true
+    avoid_ferries: true
+    
+  - platform: waze_travel_time
+    name: Reistijd naar huis
+    origin: !secret adres_werk
+    destination: !secret adres_thuis
+    region: "EU"
+    units: 'metric'
+    vehicle_type: car
+    avoid_toll_roads: true
+    avoid_subscription_roads: true
+    avoid_ferries: true

@@ -1,0 +1,157 @@
+#persons
+- platform: google_geocode
+  name: Léon
+  origin: device_tracker.life360_leon
+  options: street, city
+  api_key: !secret api_google_geocode
+  
+- platform: google_geocode
+  name: Ellen
+  origin: device_tracker.life360_ellen_van_der_linden
+  options: street, city
+  api_key: !secret api_google_geocode
+  
+- platform: google_geocode
+  name: Kai
+  origin: device_tracker.iphone_van_kai
+  options: street, city
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: Eliza
+  origin: device_tracker.iphone_van_eliza
+  options: street, city
+  api_key: !secret api_google_geocode
+  
+- platform: google_geocode
+  name: Fay
+  origin: device_tracker.iphone_van_fay_2
+  options: street, city
+  api_key: !secret api_google_geocode
+  
+- platform: google_geocode
+  name: Nyk
+  origin: device_tracker.ipad_van_nyk_97
+  options: street, city
+  api_key: !secret api_google_geocode
+
+
+
+#devices leon  
+- platform: google_geocode
+  name: iPhone van Léon
+  origin: device_tracker.iphone_12_pro_van_leon
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: iPad van Léon
+  origin: device_tracker.ipad_pro_129_van_leon_3
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: Apple Watch van Léon
+  origin: device_tracker.apple_watch_van_leon
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: MacBook van Léon
+  origin: device_tracker.macbook_pro
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+  
+  
+  
+#devices ellen 
+- platform: google_geocode
+  name: iPhone van Ellen
+  origin: device_tracker.iphone_van_ellen
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: iPad van Ellen
+  origin: device_tracker.ipad_van_ellen_2_2
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: Apple Watch van Ellen
+  origin: device_tracker.apple_watch_van_ellen
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+  
+  
+
+#devices Eliza 
+- platform: google_geocode
+  name: iPhone van Eliza
+  origin: device_tracker.iphone_van_eliza
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: iPad van Eliza
+  origin: device_tracker.ipad_van_eliza
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+  
+  
+
+#devices Kai 
+- platform: google_geocode
+  name: iPhone van Kai
+  origin: device_tracker.iphone_van_kai
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: iPad van Kai
+  origin: device_tracker.ipad_van_kai
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+  
+ 
+#devices Fay 
+- platform: google_geocode
+  name: iPhone van Fay
+  origin: device_tracker.iphone_van_fay_2
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+- platform: google_geocode
+  name: iPad van Fay
+  origin: device_tracker.ipad_van_fay
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+  
+  
+
+#devices Nyk 
+- platform: google_geocode
+  name: iPad van Nyk
+  origin: device_tracker.ipad_van_nyk_97
+  options: street, city
+  gravatar: /local/apple/custom/iphone_leon.png
+  api_key: !secret api_google_geocode
+
+
+
+
+
+

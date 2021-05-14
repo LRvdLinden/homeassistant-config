@@ -1,0 +1,4 @@
+
+  url: !secret url_nextcloud
+  username: !secret username_nextcloud
+  password: !secret password_nextcloud

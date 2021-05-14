@@ -1,0 +1,13 @@
+#-
+#               _               _
+# __      _____| |__   ___  ___| |___   __
+# \ \ /\ / / _ \ '_ \ / _ \/ __| __\ \ / /
+#  \ V  V /  __/ |_) | (_) \__ \ |_ \ V /
+#   \_/\_/ \___|_.__/ \___/|___/\__| \_/
+#
+#
+#- from github.com/basnijholt/home-assistant-config
+  - name: TV Woonkamer
+    host: 192.168.1.157
+  - name: TV Kai
+    host: 192.168.1.129

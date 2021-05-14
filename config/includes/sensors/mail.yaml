@@ -1,0 +1,4 @@
+  - platform: imap
+    server: !secret server_imap
+    username: !secret username_imap
+    password: !secret password_imap
