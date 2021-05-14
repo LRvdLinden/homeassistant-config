@@ -13,8 +13,8 @@
     <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
   </a>
     </a>
-    <a href="https://github.com/LRvdLinden/homeassistant-config/stargazers/main">
-    <img src="https://img.shields.io/github/stars/LRvdLinden/homeassistant-config.svg?style=plasticr" />
+    <a href="https://github.com/LRvdLinden/homeassistant-config/stargazers">
+    <img src="Ehttps://img.shields.io/github/stars/LRvdLinden/homeassistant-config.svg?style=plasticr" />
   </a>
       </a>
     <a href="https://github.com/LRvdLinden/homeassistant-config/commits">
