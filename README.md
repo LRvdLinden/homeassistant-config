@@ -135,12 +135,22 @@
 | ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/118010920-bf683d00-b34f-11eb-8f6d-776989c05a2f.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/118010912-becfa680-b34f-11eb-88ec-f2b5d6be2e5a.png) | 
 
 
-
+## Homescreen
 ![simple-ipad-pro-mockup-23619 (9)](https://user-images.githubusercontent.com/77990847/118013350-50d8ae80-b352-11eb-9655-dd7f839584e0.png)
+
+## Menu
 ![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
+
+## [Climate Dashboard](https://github.com/LRvdLinden/climate_dashboard_dd_addon)
 ![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
+
+## [Statistics](https://github.com/LRvdLinden/homeassistant-config/blob/main/config/dwains-dashboard/addons/more_page/statistics/page.yaml)
 ![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
+
+## [Find My](https://github.com/LRvdLinden/find_my_dd_addon)
 ![simple-ipad-pro-mockup-23619 (5)](https://user-images.githubusercontent.com/77990847/117984419-1f52e980-b338-11eb-90d6-0432b736868e.png)
+
+## [Weather Dashboard](https://github.com/LRvdLinden/weather_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118019312-21797000-b359-11eb-8723-c4c2e49f4e7b.png)
 
 
