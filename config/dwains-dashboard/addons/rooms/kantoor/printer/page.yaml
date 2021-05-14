@@ -1,0 +1,17 @@
+- type: entities
+  entities:
+              - entity: binary_sensor.hp_printer_connectivity
+              - entity: sensor.hp_envy_photo_6200_series
+                name: Status HP ENVY 6200 series
+                secondary_info: last-updated
+              - entity: sensor.hp_printer_printer
+              - entity: sensor.hp_envy_photo_6200_series
+                name: cloudvdlinden@hpeprint.com
+                icon: 'mdi:email'
+              - entity: sensor.hp_printer_inkcartridge_black
+                name: Status black ink
+                secondary_info: last-updated
+              - entity: sensor.hp_printer_inkcartridge_cyanmagentayellow
+                name: Status tri-color ink
+                secondary_info: last-updated
+  state_color: true             

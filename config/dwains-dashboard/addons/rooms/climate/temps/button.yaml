@@ -1,0 +1,73 @@
+type: vertical-stack
+cards:
+  - type: thermostat
+    entity: climate.woonkamer
+  - type: horizontal-stack
+    cards:
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_temperature
+        graph: line
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_temperature
+        graph: line
+  - type: horizontal-stack
+    cards:
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_humidity
+        graph: line
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_tuin_humidity
+        graph: line
+  - type: horizontal-stack
+    cards:
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_co2
+        graph: line
+      - type: sensor
+        entity: >-
+          sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_co2
+        graph: line
+        detail: 1
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_co2
+        graph: line
+  - type: horizontal-stack
+    cards:
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_temperature
+        graph: line
+        name: Woonkamer
+      - type: sensor
+        entity: >-
+          sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_temperature
+        graph: line
+        name: Master Bedroom
+      - type: sensor
+        entity: >-
+          sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_zolder_temperature
+        graph: line
+        name: Zolder
+  - type: horizontal-stack
+    cards:
+      - type: sensor
+        entity: sensor.netatmo_netatmo_huis_netatmo_woonkamer_humidity
+        graph: line
+        name: Woonkamer Humidity
+      - type: sensor
+        entity: >-
+          sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_humidity
+        graph: line
+        name: Master Bedroom Humidity
+        detail: 1
+      - type: sensor
+        entity: >-
+          sensor.netatmo_netatmo_huis_netatmo_woonkamer_netatmo_master_bedroom_humidity
+        graph: line
+        name: Zolder Humidity
+        detail: 1
+  - type: sensor
+    entity: sensor.apeldoorn_feel_temperature
+    graph: line
+    name: Gevoelstemperatuur buiten
+    detail: 1
+

@@ -1,0 +1,11 @@
+- type: vertical-stack
+  cards:
+    - type: entities
+      entities:
+        - entity: switch.rituals
+        - entity: switch.rituals_genie_genie_famvdlinden
+        - entity: sensor.rituals_genie_genie_famvdlinden_wifi
+        - entity: sensor.rituals_genie_genie_famvdlinden_perfume
+        - entity: sensor.rituals_genie_genie_famvdlinden_fill
+          name: Cartridge gevuld
+      state_color: true

@@ -1,0 +1,38 @@
+- type: custom:dwains-flexbox-card
+  items_classes: 'col-xs-12 col-sm-6 col-sm-6 col-md-3'
+  cards:
+## home assistant
+      - cards:
+          - name: Home assistant
+            styles:
+              card:
+                - text-transform: uppercase
+                - color: 'var(--dwains-theme-accent)'
+                - font-size: 125%
+                - border-radius: 0%
+                - font-weight: 100
+                - letter-spacing: 10px
+            type: 'custom:button-card'
+          - entities:
+              - entity: sensor.hacs
+              - entity: sensor.disk_use_percent_home
+              - entity: sensor.ipv4_address_eth0
+              - entity: sensor.memory_use_percent
+              - entity: sensor.memory_use
+              - entity: sensor.memory_free
+              - entity: sensor.supervisor_updates
+              - entity: sensor.count_automations
+              - entity: sensor.count_binary_sensors
+              - entity: sensor.count_device_trackers
+              - entity: sensor.count_input_booleans
+              - entity: sensor.count_input_datetimes
+              - entity: sensor.count_input_numbers
+              - entity: sensor.count_input_selects
+              - entity: sensor.count_input_texts
+              - entity: sensor.count_scripts
+              - entity: sensor.count_sensors
+              - entity: sensor.count_switches
+              - entity: sensor.count_zones                                                                                                  
+                show_header_toggle: false
+            type: entities
+        type: vertical-stack

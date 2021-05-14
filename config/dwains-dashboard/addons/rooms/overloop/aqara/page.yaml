@@ -1,0 +1,25 @@
+
+- type: vertical-stack
+  cards:
+    - type: alarm-panel
+      states:
+        - arm_home
+        - arm_away
+      entity: alarm_control_panel.aqara_hub_m1s_10ce
+      name: Aqara Alarm Control
+    - type: entities
+      entities:
+        - entity: alarm_control_panel.aqara_hub_m1s_10ce
+        - entity: switch.aqara_hub_m1s_10ce
+        - entity: light.aqara_overloop_nachtlampje
+      state_color: true
+    - type: button
+      tap_action:
+        action: toggle
+      entity: light.aqara_overloop_nachtlampje
+      show_state: false
+    - type: history-graph
+      entities:
+        - entity: light.aqara_overloop_nachtlampje
+      hours_to_show: 24
+      refresh_interval: 0

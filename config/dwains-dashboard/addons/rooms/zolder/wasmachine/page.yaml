@@ -1,0 +1,51 @@
+- type: vertical-stack
+  cards:
+    - cards:
+        - type: picture-elements
+          image: /local/background200.png
+          elements:
+            - type: image
+              image: /local/washer-500.png
+              style:
+                left: 18%
+                top: 44%
+                width: 28%
+            - type: 'custom:circle-sensor-card'
+              fill: 'rgba(66, 66, 66)'
+              max: 100
+              entity: binary_sensor.wasmachine_wash_completed
+              font_style:
+                font-size: 0
+                text-align: center
+              show_card: false
+              stroke_width: 15
+              style:
+                height: 60px
+                left: 18%
+                top: 48%
+                width: 80px
+            - type: state-label
+              entity: sensor.wasmachine
+              style:
+                color: '#99d6ff'
+                left: 21%
+                top: 6%
+                transform: initial
+            - type: state-label
+              entity: binary_sensor.wasmachine_wash_completed
+              style:
+                left: 18%
+                top: 75%
+            - type: 'custom:text-element'
+              style:
+                left: 18%
+                bottom: 2%
+              text: Wasmachine
+      title: null
+      type: 'custom:vertical-stack-in-card'
+    - type: entities
+      entities:
+        - entity: binary_sensor.wasmachine_error_state
+        - entity: binary_sensor.wasmachine_wash_completed
+        - entity: sensor.wasmachine
+      state_color: true

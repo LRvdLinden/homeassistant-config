@@ -1,0 +1,74 @@
+# Power usage addon for displaying Power, Gas and Water usage
+
+- type: custom:dwains-flexbox-card
+  padding: true
+  items_classes: 'col-lg-6 col-md-6 col-sm-12 col-xs-12'
+  cards:
+    
+# Thermostaat
+## Header
+  - cards:
+      - name: thermostaat
+        styles:
+          card:
+            - text-transform: uppercase
+            - color: 'var(--dwains-theme-accent)'
+            - font-size: 125%
+            - border-radius: 0%
+            - font-weight: 100
+            - letter-spacing: 10px
+        type: 'custom:button-card'
+## grafiek
+      - cards:
+          - entities:
+              - sensor.woonkamer_temperature
+            color_thresholds:
+            - value: 19
+              color: "#f39c12"
+            - value: 20
+              color: "#d35400"
+            - value: 21.5
+              color: "#c0392b"
+            name: Kamertemperatuur (7D)
+            hours_to_show: 168
+            line_width: 1
+            refresh_interval: 100
+
+            show:
+              animate: true
+              fill: true
+              icon: false
+              labels: true
+              name: false
+              graph: line
+              extrema: true
+              average: true
+            theme: ios-dark-mode-blue-red
+            type: 'custom:mini-graph-card'
+
+## Thermostaat
+          - aspect_ratio: 1/1
+            color: 'rgb(150, 150, 150)'
+            entity: climate.woonkamer
+            show_state: true
+            size: 30%
+            type: thermostat
+        type: horizontal-stack
+
+
+## sensoren        
+      - entities:
+          - entity: sensor.woonkamer_humidity
+            name: Luchtvochtigheid
+            secondary_info: last-updated
+          - entity: binary_sensor.woonkamer_open_window
+            name: Deur
+          - entity: binary_sensor.woonkamer_link
+            name: Link Status
+          - entity: sensor.woonkamer_tado_mode
+            name: modus
+          - entity: binary_sensor.woonkamer_power
+            name: power
+            show_header_toggle: false
+        type: entities
+    type: vertical-stack
