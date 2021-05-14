@@ -1,0 +1,11 @@
+{
+  "domain": "rituals_genie",
+  "name": "Rituals Genie",
+  "documentation": "https://github.com/fred-oranje/rituals-genie",
+  "issue_tracker": "https://github.com/fred-oranje/rituals-genie/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": ["@fred-oranje"],
+  "requirements": [],
+  "version": "0.0.2"
+}

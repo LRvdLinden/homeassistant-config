@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rituals Genie",
+        "description": "Provide your Rituals username and password (these are not stored)",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "hub": {
+        "title": "Select Rituals Genie",
+        "description": "Choose the Genie to add",
+        "data": {
+          "hub_name": "Genie"
+        }
+      }
+    },
+    "error": {
+      "auth": "Username/Password is wrong.",
+      "invalid_hub": "Invalid Genie selected."
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "wifi_enabled": "WiFi sensor enabled",
+          "perfume_enabled": "Perfume sensor enabled",
+          "fill_enabled": "Fill sensor enabled",
+          "switch_enabled": "Switch enabled"
+        }
+      }
+    }
+  }
+}

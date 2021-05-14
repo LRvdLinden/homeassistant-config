@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rituals Genie",
+        "description": "Geef je Rituals gebruikersnaam en wachtwoord (worden niet opgeslagen)",
+        "data": {
+          "username": "Gebruikersnaam",
+          "password": "Wachtwoord"
+        }
+      },
+      "hub": {
+        "title": "Kies Rituals Genie",
+        "description": "Kies de Genie om toe te voegen",
+        "data": {
+          "hub_name": "Genie"
+        }
+      }
+    },
+    "error": {
+      "auth": "Gebruikersnaam/wachtwoord zijn fout.",
+      "invalid_hub": "Ongeldige Genie geselecteerd."
+    }
+  },
+  "options": {
+    "step": {
+      "user": {
+        "data": {
+          "wifi_enabled": "WiFi sensor ingeschakeld",
+          "perfume_enabled": "Parfum sensor ingeschakeld",
+          "fill_enabled": "Vulniveau sensor ingeschakeld",
+          "switch_enabled": "Schakelaar ingeschakeld"
+        }
+      }
+    }
+  }
+}
