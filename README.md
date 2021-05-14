@@ -13,6 +13,10 @@
     <img src="https://img.shields.io/github/followers/LRvdLinden?style=social" />
   </a>
     </a>
+    <a href="https://github.com/huizebruin/Home-Assistant-Config/stargazers">
+    <img src="https://img.shields.io/github/stars/LRvdLinden/homeassistant-config.svg?style=plasticr" />
+  </a>
+     </a>
     <a href="https://discord.gg/7yt64uX">
     <img src="https://img.shields.io/discord/688401603811999885" />
   </a>
