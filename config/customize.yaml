@@ -1,0 +1,233 @@
+sensor.circulus_berkel_gft:
+  entity_picture: /local/images/afvalwijzer/afval_gft_small.png
+  friendly_name: GFT
+sensor.circulus_berkel_morgen:
+  friendly_name: morgen
+sensor.circulus_berkel_papier:
+  entity_picture: /local/images/afvalwijzer/afval_papier_small.png
+  friendly_name: Papier
+sensor.circulus_berkel_pmd:
+  entity_picture: /local/images/afvalwijzer/afval_pmd_small.png
+  friendly_name: PMD
+sensor.circulus_berkel_vandaag:
+  friendly_name: vandaag
+alarm_control_panel.ha_alarm:
+  friendly_name: Alarm Control Center
+  icon: ios:bell
+sensor.p2000_achterhoek:
+  friendly_name: P2000
+sensor.count_automations:
+  friendly_name: Automations
+sensor.count_binary_sensors:
+  friendly_name: Binary sensors
+sensor.count_device_trackers:
+  friendly_name: Trackers
+sensor.count_input_booleans:
+  friendly_name: Booleans
+sensor.count_input_datetimes:
+  friendly_name: Datetimes
+  icon: ios:calendar-badge-clock
+sensor.count_input_numbers:
+  friendly_name: Numbers
+sensor.count_input_selects:
+  friendly_name: Selects
+sensor.count_input_texts:
+  friendly_name: Texts
+sensor.count_scripts:
+  friendly_name: Scripts
+sensor.count_sensors:
+  friendly_name: Sensors
+sensor.count_switches:
+  friendly_name: Switches
+sensor.count_zones:
+  friendly_name: Zones
+light.eettafel:
+  friendly_name: Eettafel
+light.aanrecht:
+  friendly_name: Aanrecht
+sensor.co2_intensity_52_21_5_97:
+  friendly_name: Buiten co2
+  unit_of_measurement: ppm
+sensor.counter_achterdeur:
+  icon: fas:door-open
+sensor.counter_voordeur:
+  icon: fas:door-open
+sensor.knmi_weer_waarschuwing:
+  friendly_name: KNMI waarschuwing
+  icon: fas:poo-storm
+sensor.knmi_weercode:
+  friendly_name: KNMI code
+  icon: ios:exclamationmark-triangle
+sensor.moon:
+  friendly_name: Maan
+sun.sun:
+  friendly_name: Zon
+  icon: ios:sun-min
+sensor.season:
+  friendly_name: Seizoen
+group.switch_slaapkamer_kai_groep:
+  icon: mdi:power-socket-de
+group.media_player_slaapkamer_kai_groep:
+  icon: mdi:cast
+group.verlichting_slaapkamer_kai_groep:
+  icon: mdi:lightbulb-group
+group.verlichting_slaapkamer_fay_groep:
+  icon: mdi:lightbulb-group
+group.verlichting_slaapkamer_nyk_groep:
+  icon: mdi:lightbulb-group
+group.automation_light_groep:
+  icon: mdi:lightbulb-group
+group.deur_notify_groep:
+  icon: fas:door-open
+group.beweging_notify_groep:
+  icon: hass:walk
+calendar.ellen:
+  icon: ios:calendar
+calendar.f1_race:
+  icon: ios:calendar
+calendar.feestdagen_in_nederland:
+  icon: ios:calendar
+calendar.formula_1_calendar_fp1:
+  icon: ios:calendar
+calendar.formula_1_calendar_fp2:
+  icon: ios:calendar
+calendar.formula_1_calendar_fp3:
+  icon: ios:calendar
+calendar.formula_1_calendar_qualifying:
+  icon: ios:calendar
+calendar.formula_1_calendar_race:
+  icon: ios:calendar
+calendar.friends_birthdays:
+  icon: ios:calendar
+calendar.gezin:
+  icon: ios:calendar
+calendar.kwalificatie:
+  icon: ios:calendar
+calendar.leon:
+  icon: ios:calendar
+calendar.vt1:
+  icon: ios:calendar
+calendar.vt2:
+  icon: ios:calendar
+calendar.vt3:
+  icon: ios:calendar
+sensor.date:
+  icon: ios:calendar
+sensor.date_time:
+  icon: ios:calendar-badge-clock
+sensor.trakt_upcoming_calendar:
+  icon: ios:calendar
+sensor.time_date:
+  icon: ios:calendar-badge-clock
+group.switch_devices_eliza_groep:
+  icon: ios:apps-ipad
+group.switch_devices_kai_groep:
+  icon: ios:apps-ipad
+group.switch_devices_fay_groep:
+  icon: ios:apps-ipad
+group.switch_devices_nyk_groep:
+  icon: ios:apps-ipad
+switch.ipad_van_kai:
+  icon: ios:apps-ipad
+switch.ipad_van_nyk_97:
+  icon: ios:apps-ipad
+switch.iphone:
+  icon: ios:apps-iphone
+switch.iphone_van_fay:
+  icon: ios:apps-iphone
+switch.ipad_van_fay:
+  icon: ios:apps-ipad
+sensor.hline_1:
+  custom_ui_state_card: state-card-hline
+sensor.leon:
+  entity_picture: /local/Leon1.png
+sensor.kai:
+  entity_picture: /local/Kai.png
+sensor.ellen:
+  entity_picture: /local/Ellen.png
+sensor.eliza:
+  entity_picture: /local/Eliza.png
+sensor.fay:
+  entity_picture: /local/Fay.png
+sensor.nyk:
+  entity_picture: /local/Nyk.png
+sensor.iphone_van_leon:
+  entity_picture: /local/apple/custom/i12.png
+sensor.ipad_van_leon:
+  entity_picture: /local/apple/custom/ipadpro.png
+sensor.apple_watch_van_leon:
+  icon: fal:watch
+  entity_picture: /local/apple/custom/watch.png
+sensor.macbook_van_leon:
+  entity_picture: /local/apple/custom/macbook.png
+sensor.apple_watch_van_ellen:
+  entity_picture: /local/apple/custom/watch.png
+sensor.ipad_van_ellen:
+  icon: ios:apps-ipad
+  entity_picture: /local/apple/custom/ipad.png
+sensor.ipad_van_eliza:
+  icon: ios:apps-ipad
+  entity_picture: /local/apple/custom/ipadwhite.png
+sensor.ipad_van_kai:
+  icon: ios:apps-ipad
+  entity_picture: /local/apple/custom/ipad.png
+sensor.ipad_van_fay:
+  icon: ios:apps-ipad
+  entity_picture: /local/apple/custom/ipadwhite.png
+sensor.iphone_van_ellen:
+  entity_picture: /local/apple/custom/i11.png
+sensor.iphone_van_eliza:
+  icon: ios:apps-iphone
+  entity_picture: /local/apple/custom/6s.png
+sensor.iphone_van_kai:
+  entity_picture: /local/apple/custom/ixs.png
+sensor.iphone_van_fay:
+  entity_picture: /local/apple/custom/5s.png
+sensor.ipad_van_nyk:
+  entity_picture: /local/apple/custom/ipad.png
+device_tracker.ipad_van_nyk_97:
+  entity_picture: /local/apple/custom/ipad.png
+device_tracker.apple_watch_van_ellen:
+  entity_picture: /local/apple/custom/watch.png
+device_tracker.apple_watch_van_leon:
+  entity_picture: /local/apple/custom/watch.png
+device_tracker.ipad_pro_129_van_leon_3:
+  entity_picture: /local/apple/custom/ipadpro.png
+device_tracker.ipad_van_eliza:
+  entity_picture: /local/apple/custom/ipadwhite.png
+device_tracker.ipad_van_ellen_2_2:
+  entity_picture: /local/apple/custom/ipad.png
+device_tracker.ipad_van_fay:
+  entity_picture: /local/apple/custom/ipadwhite.png
+device_tracker.ipad_van_kai:
+  entity_picture: /local/apple/custom/ipad.png
+device_tracker.iphone_12_pro_van_leon:
+  entity_picture: /local/apple/custom/i12.png
+device_tracker.iphone_van_eliza:
+  entity_picture: /local/apple/custom/6s.png
+device_tracker.iphone_van_ellen:
+  entity_picture: /local/apple/custom/i11.png
+device_tracker.iphone_van_fay_2:
+  entity_picture: /local/apple/custom/5s.png
+device_tracker.iphone_van_kai:
+  entity_picture: /local/apple/custom/ixs.png
+device_tracker.appletvoonkamer:
+  entity_picture: /local/apple/custom/appletv4k.png
+device_tracker.apple_tv_master_bedroom:
+  entity_picture: /local/apple/custom/appletv4k.png
+device_tracker.apple_tv_kids:
+  entity_picture: /local/apple/custom/appletv3.png
+device_tracker.homepod_mini:
+  entity_picture: /local/apple/custom/homepodmini.png
+person.leon:
+  entity_picture: /local/Leon1.png
+person.kai:
+  entity_picture: /local/Kai.png
+person.ellen:
+  entity_picture: /local/Ellen.png
+person.eliza:
+  entity_picture: /local/Eliza.png
+person.fay:
+  entity_picture: /local/Fay.png
+person.nyk:
+  entity_picture: /local/Nyk.png
