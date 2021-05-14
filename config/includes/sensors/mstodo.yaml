@@ -1,4 +1,0 @@
-calendar:
-  - platform: microsoft_todo
-    client_id: !secret
-    client_secret: !secret

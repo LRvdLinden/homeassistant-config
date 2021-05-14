@@ -1,4 +1,0 @@
-  - platform: imap
-    server: mail.!secret
-    username: !secret
-    password: !secret

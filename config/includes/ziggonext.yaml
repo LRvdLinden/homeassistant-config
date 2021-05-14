@@ -1,3 +1,0 @@
-  username: !secret@gmail.com
-  password: !secret
-  country_code: nl 

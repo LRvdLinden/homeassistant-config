@@ -1,2 +1,0 @@
-  - platform: youtube
-    channel_id: !secret
