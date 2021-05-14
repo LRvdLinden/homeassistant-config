@@ -1,0 +1,96 @@
+#-
+#                   __ _                       _   _
+#   ___ ___  _ __  / _(_) __ _ _   _ _ __ __ _| |_(_) ___  _ __
+#  / __/ _ \| '_ \| |_| |/ _` | | | | '__/ _` | __| |/ _ \| '_ \
+# | (_| (_) | | | |  _| | (_| | |_| | | | (_| | |_| | (_) | | | |
+#  \___\___/|_| |_|_| |_|\__, |\__,_|_|  \__,_|\__|_|\___/|_| |_|
+#                        |___/
+#
+
+
+# Core Configuration
+default_config:
+frontend:
+  themes: !include_dir_merge_named themes/
+  extra_html_url:
+    - /local/custom_ui/state-card-hline.html
+  extra_html_url_es5:
+    - /local/custom_ui/state-card-hline_es5.html
+  extra_module_url:
+    - /local/FontAwesomePro/light.js
+    - /local/FontAwesomePro/solid.js
+    - /local/FontAwesomePro/regular.js
+    - /local/FontAwesomePro/brands.js
+    - /local/FontAwesomePro/duotone.js
+  
+discovery:
+
+alarm_control_panel: !include includes/alarm.yaml
+
+homeassistant:
+  customize: !include customize.yaml
+
+
+
+recorder:
+
+sun:
+
+# Inputs
+input_datetime: !include includes/input_datetimes.yaml
+input_select: !include includes/input_selects.yaml
+input_number: !include includes/input_numbers.yaml
+
+# Logging and history
+
+
+# Managed via UI
+scene: !include scenes.yaml
+automation: !include automations.yaml
+automation split: !include_dir_merge_list includes/automation/
+script: !include scripts.yaml
+
+
+#overig
+group: !include includes/groups.yaml
+light: !include includes/lights.yaml 
+media_player: !include includes/media_players.yaml
+utility_meter: !include includes/utility_meter.yaml
+notify: !include_dir_merge_list includes/notifiers/  
+sensor: !include_dir_merge_list includes/sensors/
+switch: !include_dir_merge_list includes/switches/  
+binary_sensor: !include_dir_merge_list includes/binary_sensors/  
+webostv: !include includes/webostv.yaml
+weather: !include includes/weather.yaml
+camera: !include includes/camera.yaml
+spotify: !include includes/spotify.yaml 
+spotcast: !include includes/spotcast.yaml
+tts: !include includes/tts.yaml
+withings: !include includes/withings.yaml
+homekit: !include includes/homekit.yaml
+google: !include includes/calendar.yaml
+ziggonext: !include includes/ziggonext.yaml
+nextcloud: !include includes/nextcloud.yaml
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+
+
+
+
