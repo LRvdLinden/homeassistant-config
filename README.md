@@ -41,7 +41,7 @@
 
 
 
-### Status of: 2021.05.05
+### Status of: 2021.05.14
 
 ### 💻 Server Home Assistant
 ---
