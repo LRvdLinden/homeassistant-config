@@ -144,6 +144,7 @@
 | ⚙ | HACS | [Trakt](https://github.com/custom-components/sensor.trakt) |
 | ⚙ | HACS | [Meross Cloud IoT](https://github.com/albertogeniola/meross-homeassistant) |
 | ⚙ | HACS | [P2000 Sensor](https://github.com/cyberjunky/home-assistant-p2000) |
+| ⚙ | HACS | [Eufy Security](https://github.com/nonsleepr/ha-eufy-security) |
 
 
 ### 📇 HACS Lovelace Cards
