@@ -141,17 +141,20 @@
 ## Menu
 ![simple-ipad-pro-mockup-23619 (1)](https://user-images.githubusercontent.com/77990847/117962343-68e30a80-b31f-11eb-9d03-49643739c510.png)
 
-## [Climate Dashboard](https://github.com/LRvdLinden/climate_dashboard_dd_addon)
-![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
-
-## [Statistics](https://github.com/LRvdLinden/homeassistant-config/blob/main/config/dwains-dashboard/addons/more_page/statistics/page.yaml)
-![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
-
 ## [Find My](https://github.com/LRvdLinden/find_my_dd_addon)
 ![simple-ipad-pro-mockup-23619 (5)](https://user-images.githubusercontent.com/77990847/117984419-1f52e980-b338-11eb-90d6-0432b736868e.png)
 
 ## [Weather Dashboard](https://github.com/LRvdLinden/weather_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118019312-21797000-b359-11eb-8723-c4c2e49f4e7b.png)
+
+## [Security Dashboard](https://github.com/LRvdLinden/security_dashboard_dd_addon)
+![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118345736-c8ffc980-b536-11eb-9278-39a1bc62f136.png)
+
+## [Climate Dashboard](https://github.com/LRvdLinden/climate_dashboard_dd_addon)
+![simple-ipad-pro-mockup-23619 (2)](https://user-images.githubusercontent.com/77990847/117962344-68e30a80-b31f-11eb-9238-82684bc460bb.png)
+
+## [Statistics](https://github.com/LRvdLinden/homeassistant-config/blob/main/config/dwains-dashboard/addons/more_page/statistics/page.yaml)
+![simple-ipad-pro-mockup-23619 (3)](https://user-images.githubusercontent.com/77990847/117962345-697ba100-b31f-11eb-9c46-9ed596296fef.png)
 
 ## [Automation Dashboard](https://github.com/LRvdLinden/automations_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118323454-f5005800-b500-11eb-9f28-b360c9464fcf.png)
