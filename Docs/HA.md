@@ -202,8 +202,7 @@
 | 📇 | HACS | [Auto Reload](https://github.com/ben8p/lovelace-auto-reload-card) |
 | 📇 | HACS | [Time Elapsed Card](https://github.com/kirbo/ha-lovelace-elapsed-time-card) |
 | 📇 | HACS | [HA card Weather Conditions](https://github.com/r-renato/ha-card-weather-conditions) |
-
-
+| 📇 | HACS | [Weather Card](https://github.com/bramkragten/weather-card) |
 ---
 Enjoy my Home Assistant config? Help me out for a couple of :beers: or a :coffee:!
 
