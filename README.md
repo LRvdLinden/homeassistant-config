@@ -150,7 +150,7 @@
 ## [Security Dashboard](https://github.com/LRvdLinden/security_dashboard_dd_addon)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118345736-c8ffc980-b536-11eb-9278-39a1bc62f136.png)
 
-## [Ubiquiti](https://github.com/dwainscheeren/dwains-dashboard-addons/tree/master/more_page/ubiquiti)
+## [UniFi Controller](https://github.com/dwainscheeren/dwains-dashboard-addons/tree/master/more_page/ubiquiti)
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118368447-66441780-b5a2-11eb-8843-f83f77290ccc.png)
 
 
