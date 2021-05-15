@@ -105,7 +105,7 @@
 | 🎨 | HA | [Themes](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-themes-in-ha) | 2 |
 | ⚙ | HA | [Supervisor Addon](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-supervisor-addon) | 10 |
 | ⚙ | HACS | [Integrations](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-hacs-integartions) | 18 |
-| 📇 | HACS | [Lovelace Cards](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-hacs-lovelace-cards) | 50 |
+| 📇 | HACS | [Lovelace Cards](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-hacs-lovelace-cards) | 51 |
 | 🎨 | HACS | [Icons](https://github.com/LRvdLinden/homeassistant-config/blob/main/Docs/HA.md#-hacs-icons) | 3 |
 
 
