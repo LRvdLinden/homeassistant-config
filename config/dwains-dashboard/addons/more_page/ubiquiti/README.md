@@ -1,7 +1,7 @@
-## [🔙 go to Find My](LRvdLinden/unifi_dashboard_dd_addon)
+## [🔙 go to UniFi Dashboard](https://github.com/LRvdLinden/unifi_dashboard_dd_addon)
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77990847/117984419-1f52e980-b338-11eb-90d6-0432b736868e.png" />
+  <img src="https://user-images.githubusercontent.com/77990847/118372931-50d7e900-b5b4-11eb-9b1b-f6ffcebae15c.png" />
 </p>
 
