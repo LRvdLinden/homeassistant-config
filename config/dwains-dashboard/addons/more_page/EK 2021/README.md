@@ -23,7 +23,7 @@
 <p align="center">Created by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
 </p> 
 
-## [🔙 go to EK 2021](https://github.com/LRvdLinden/ek_2021_my_dd_addon)
+## [🔙 go to EK 2021](https://github.com/LRvdLinden/ek2021_dd_addon)
 ![simple-ipad-pro-mockup-23619 (13)](https://user-images.githubusercontent.com/77990847/118460329-e1b9dc00-b6fc-11eb-81c6-88a898063025.png)
 
 
