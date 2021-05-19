@@ -22,7 +22,7 @@
   </a>
       </a>
     <a href="https://github.com/home-assistant/home-assistant/releases/latest">
-    <img src="https://img.shields.io/badge/Running%20Home%20Assistant-2021.5.4%20-darkblue" />
+    <img src="https://img.shields.io/badge/Running%20Home%20Assistant-2021.5.5%20-darkblue" />
   </a>
      </a>
     <a href="https://discord.gg/7yt64uX">
