@@ -41,7 +41,7 @@
 
 
 
-### Status of: 2021.05.14
+### Status of: 2021.05.20
 
 ### 💻 Server Home Assistant
 ---
@@ -115,15 +115,15 @@
 |------|:-------:|:--------------:|:------:|
 | 🔄 | HA | Automations | 65 |
 | 📃 | HA | Scripts | 4 |
-| 📍 | HA | Trackers | 84 | 
+| 📍 | HA | Trackers | 103 | 
 | ⚙ | HA | Binary Sensors | 54 |
-| ⚙ | HA | Sensors | 1012 |
+| ⚙ | HA | Sensors | 1033 |
 | 🔘 | HA | Switches | 31 |
 | 📍 | HA | Zones | 5 | 
 | 🔘 | HA | Booleans | 2 |
-| 🔢 | HA | Numbers | 3 |
+| 🔢 | HA | Numbers | 4 |
 | 🔤 | HA | Text | 0 |
-| ✅ | HA | Selects | 2 |
+| ✅ | HA | Selects | 4 |
 | 📆 | HA | Datetimes | 6 |
 
 
