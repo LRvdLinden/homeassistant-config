@@ -663,7 +663,7 @@
     data:
       message: '⚡📈 PAS OP: Je hebt vandaag al meer dan 15 kWh aan stroom verbruikt!'
       data:
-        url: https://s0nfyyav1weed97kkf4ds382ebxbhn43.ui.nabu.casa/dwains-dashboard/more_page_addon_energy
+        url: https://.ui.nabu.casa/dwains-dashboard/more_page_addon_energy
   mode: single
 - id: '1616539777146'
   alias: Unifi Gateway alerts
